@@ -1,0 +1,231 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .container{
+      position: relative;
+      
+      background: orange;
+
+     
+
+
+    }
+    .fa-house{
+      font-size: 30px;
+    }
+    .fa-info{
+      font-size: 30px; 
+    }
+    .fa-image{
+      font-size: 30px;   
+    }
+    .fa-address-card{
+      font-size: 30px; 
+    }
+    
+.div_kontaktdiv{
+   height: 100px;
+   
+}
+.div_kontaktdiv{
+   position: relative;
+   bottom:0;
+   left: 0px;
+}
+ .container .image-container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   justify-content: center;
+   padding: 10px;
+ }
+
+
+
+
+
+
+
+
+    
+    header{
+    padding: 50px 50px;
+    background: orange;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+ }
+ .main-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+
+ ul{
+    display: flex;
+    background:RGB(66, 133, 244);
+    border: 2px solid RGB(66, 133, 244);
+    
+    
+    
+    
+
+
+ }
+ nav li{
+    padding: 5px 10px;
+    border: none;
+    display: inline-block;
+    padding:5px;
+    transition: all linear 0.5s;
+    margin-left: 20px;
+
+ }
+ nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding:5px;
+    
+
+ }
+ section{
+    padding-top: 100px;
+    min-height: 100vh;
+    width: 100%;
+   
+
+ }
+ .galerija{
+   margin: 10px 0 50px;
+ }
+ .galerija img{
+width: 230px;
+padding: 5px;
+transition: 1s;
+
+
+ }
+ .galerija img:hover{
+   transform: scale(1.1);
+ }
+ section h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+   
+    color: white;
+    text-align: top;
+    
+    
+
+   
+ }
+ 
+ #kuća{
+    background-color: orange;
+    
+   
+ }
+ #info{
+    background-color: RGB(66, 133, 244)
+    
+    
+    
+    
+ }
+ .imglogo{
+   display: flex;
+   justify-content: center;
+
+ }
+ .imglogo .imglogoclass{
+   width: 150px;
+   margin-top: 125px;
+ }
+ #slike{
+    background-color: orange;
+    text-align: center;
+    
+
+ }
+ #kontakt{
+    background-color: RGB(66, 133, 244);
+    text-align: center;
+    
+ }
+ .active{
+    background: orange;
+    display: inline-block;
+    padding: 5px;
+ }
+
+  
+.container{
+   max-width: 1200px;
+   margin: auto;
+   background: #f2f2f2;
+   overflow: auto;
+}
+.h1gricomp{
+   
+}
+.gallery{
+   margin: 5px;
+   border: 1px solid #ccc;
+   float: left;
+   width:390 px;
+}
+.gallery img{
+   width: 100%;
+   height: auto;
+}
+.desc{
+   padding: 15px;
+   text-align:center ;
+}
+
+
+
+.sezil{
+color:white	;
+text-align:center;
+font-size: 20px;	
+
+}
+.div_sezil{
+   padding-top: 50px;
+  
+}
+section#slike{
+   text-align:center; 
+}
+
+   
+
+
+.imggallery{
+   margin: 15px;
+   border: 2px solid RGB(66, 133, 244);
+   border-radius: 10px;
+  
+}
+h1{
+   text-align: center;
+  
+}
+.h1_class{
+   margin-top: 75px;
+}
+header{
+   z-index: 10;
+   box-shadow: 0px 0px 15px 5px rgb(0,0,0,0.3);
+}  
+
+
